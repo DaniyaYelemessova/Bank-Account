@@ -7,12 +7,16 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <h2>New Account</h2>
+  <div class="container">
+    <div class="form-wrap">
+  <h1>Welcome to the Epicodus Credit Union!</h1>
+  
   <form id="accountForm">
+    <h2>New Account</h2>
     <label for="userName">User name:</label>
     <input type="text" id="userName" required>
 
-    <label for="initialDeposit">Initial Deposit</label>
+    <label for="initialDeposit">Initial Deposit:</label>
     <input type="number" id="initialDeposit" required>
 
     <button type="submit">Submit</button>
@@ -20,8 +24,8 @@
 
   
 
-  <h2>Deposit or withdraw funds:</h2>
   <form id="depositOrWithdrawForm">
+    <h2>Deposit or withdraw funds:</h2>
     <select id="depositOrWithdraw">
       <option value="1">Deposit</option>
       <option value="2">Withdraw</option>
@@ -33,8 +37,9 @@
     <button type="submit">Submit</button>
   </form>
 
-  <p id="currentBalance"></p>
-
+  <p id="currentBalance">Current balance:</p>
+</div>
+</div>
 
 
 

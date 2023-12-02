@@ -1,0 +1,40 @@
+.container{
+  max-width: 800px;
+  margin: auto;
+}
+
+h1{
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+#accountForm, #depositOrWithdrawForm{
+  display: inline-flex;
+  flex-direction: column;
+  background-color: #dae8fc;
+  padding: 20px 140px 30px 20px;
+  border: 2px solid #c9dfff;
+  height: 250px;
+}
+
+#accountForm label, #depositOrWithdrawForm label{
+  margin-top: 15px;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+#depositOrWithdraw{
+  margin-top: 30px;
+}
+
+#currentBalance{
+  background-color: #c9dfff;
+  font-size: 20px;
+  font-weight: 600;
+  padding: 20px;
+}
+
+
+#accountForm button, #depositOrWithdrawForm button{
+  margin-top: 25px;
+}

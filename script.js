@@ -42,7 +42,7 @@ const userDataBase = new UserDataBase();
 
 function displayNewUser(userDisplay){
   const currentBalance = document.querySelector("#currentBalance");
-  currentBalance.innerText = `Hi, ${userDisplay.name}! Current Balance: $${userDisplay.balance}`;
+  currentBalance.innerText = `Hi, ${userDisplay.name}! Current balance: $${userDisplay.balance}`;
 }
 
 
